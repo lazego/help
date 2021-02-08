@@ -65,7 +65,7 @@ const a25 = document.querySelector(".a25");
 const a23 = document.querySelector(".a23");
 const a20 = document.querySelector(".a20");
 const a24 = document.querySelector(".a24");
-a24.onclick = () => {
+a20.onclick = () => {
   let inp3 = +a25.value;
   let inp4 = +a23.value;
   if (inp3 < inp4) {
