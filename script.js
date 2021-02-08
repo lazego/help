@@ -61,14 +61,16 @@ b2.onclick = () => {
   }
 };
 
-const a22 = document.querySelector(".a22");
+const a25 = document.querySelector(".a25");
 const a23 = document.querySelector(".a23");
 const a20 = document.querySelector(".a20");
 const a24 = document.querySelector(".a24");
 a24.onclick = () => {
-  if (a22 < a23) {
-    document.querySelector(".a24").innerHTML = a23;
+  let inp3 = +a25.value;
+  let inp4 = +a23.value;
+  if (inp3 < inp4) {
+    document.querySelector(".a24").innerHTML = inp4;
   } else {
-    document.querySelector(".a24").innerHTML = a22;
+    document.querySelector(".a24").innerHTML = inp3;
   }
 };
