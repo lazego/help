@@ -50,11 +50,10 @@ b1.onclick = () => {
   }
 };
 
-let a21 = 7;
+const b2 = document.querySelector(".b2");
+let a21 = 5;
 let a22 = 6;
 b2.onclick = () => {
-  let a21 = 7;
-  let a22 = 6;
   if (a21 < a22) {
     document.querySelector(".outp2").innerHTML = a22;
   } else {
